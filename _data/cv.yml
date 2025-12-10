@@ -2,96 +2,101 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Achsah Marlene Aruva
+    - name: Location
+      value: New York City, NY
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science in Biomedical Engineering
+      institution: Columbia University, New York, NY
+      year: 2024 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "Track: Bioinformatics & Machine Learning"
+        - title: Relevant Courses
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Computational Genomics
+            - Statistical ML for Genomics
+            - High-Dimensional Statistics for Biomedical Data
+            - Analysis of Algorithms
+            - Probabilistic Models and Machine Learning
+    - title: Dual Degree (B.Tech + M.Tech) in Mechanical Engineering
+      institution: Indian Institute of Technology (IIT), Ropar, India
+      year: 2019 - 2024
       description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Relevant Courses
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+            - Deep Learning for Physical Systems
+            - Advanced Numerical Methods
+            - Finite Element Methods
+            - Biomechanics
+            - Advanced Cancer Biology and Molecular Biology
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: ML Researcher – Spatial Genomics Integration
+      institution: Computational Cancer Biology Lab (PI Dr. Elham Azizi), Columbia University
+      year: May 2025 - Oct 2025
+      description:
+        - Part of team building end-to-end ML pipeline integrating multimodal genomic datasets (spatial-ATAC and scRNA-seq, 10K+ cells) using hypergraph-based architecture
+        - Automated quality control workflows with ArchR and chromVAR, reducing manual processing time from days to hours
+        - Improved data integration accuracy for downstream biological analysis
+    - title: ML Researcher – Cross-Species Data Integration
+      institution: Worked with Daniel Meyer (Knowles Lab), Columbia University
+      year: Sep 2024 - May 2025
+      description:
+        - Designed and implemented graph neural network–based variational autoencoder (GNN-VAE) in PyTorch to align cross-species scRNA-seq datasets
+        - Developed benchmarking framework with standardized metrics and established evaluation protocols
+        - Presented work as a second author at Machine Learning in Computational Biology (MLCB) 2025 Conference
+    - title: Master's Research - Computational Modeling of Foregut Elongation
+      institution: Morphogenesis & Developmental Biomechanics Lab (PI Dr. Nandan Nerurkar), Columbia University
+      year: Sep 2024 - Apr 2025
+      description:
+        - Developed chemo-mechanical simulation model in Python and FEniCS to predict embryonic development patterns
+        - Conducted large-scale parameter sweeps to identify optimal values, analyzing 100+ simulations to quantify model sensitivity
+        - Generated testable hypotheses for experimental validation
+    - title: Thesis Student - Biomechanics Computational Modeling
+      institution: Biomechanical Creativity and Innovation Lab (PI Dr. Jitendra Prasad), IIT Ropar
+      year: Jul 2023 - May 2024
+      description:
+        - Developed poroelastic mathematical model in MATLAB to predict mechanotransduction signaling
+        - Implemented parameter estimation algorithms to infer biological relationships from time-series data
+        - Presented work at The XXX Congress of the International Society of Biomechanics, Stockholm
 
-- title: Honors and Awards
+- title: Teaching Experience
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Teaching Assistant
+      institution: Columbia University
+      year: 2024 - 2025
+      description:
+        - "Courses: Introduction to Deep Learning and LLM-based Generative AI Systems (Fall 2024), Neural Networks and Deep Learning (Spring 2025), Statistical ML in Genomics (Fall 2025)"
+        - Held office hours for graduate courses in ML, deep learning, and genomics
+        - Graded assignments and projects, providing detailed feedback on model implementation and data analysis
+    - title: Teaching Assistant
+      institution: IIT Ropar
+      year: 2023 - 2024
+      description:
+        - "Courses: Deep Learning for Physical Systems (Winter 2024)"
+        - Led weekly recitations and helped prepare assignments, evaluate assignments and code
 
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, R, C, SQL, MATLAB, LaTeX
+    - title: Machine Learning
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - PyTorch, TensorFlow, scikit-learn, NumPy, SciPy, Pandas
+    - title: Bioinformatics
+      items:
+        - ScanPy, ArchR, Bioconductor, genomic data processing pipelines
+    - title: Data & Visualization
+      items:
+        - Matplotlib, Seaborn, Jupyter, large-scale data analysis
+    - title: Tools & Infrastructure
+      items:
+        - Git, Linux/Unix, HPC environments, FEniCS
