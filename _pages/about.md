@@ -17,9 +17,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a computational biologist and graduate student at Columbia University pursuing my Master of Science in Biomedical Engineering with a focus on Bioinformatics and Machine Learning. My work lies at the intersection of machine learning, genomics, and computational biology.
+I'm a Master's student at Columbia University pursuing my Master of Science in Biomedical Engineering with a focus on Bioinformatics and Machine Learning. My work lies at the intersection of machine learning, genomics, and computational biology.
 
-Currently, I'm a Machine Learning Researcher at the [Computational Cancer Biology Lab](https://azizi.igb.columbia.edu/) (PI: Dr. Elham Azizi), where I work on spatial genomics integration, cross-species data integration using graph neural networks, and protein language models. I'm passionate about building scalable ML pipelines and multi-omics integration frameworks that enable biological discovery.
+Currently, I'm conducting Master's research at the [Azizi Lab](https://www.azizilab.com/) (PI: Dr. Elham Azizi), where I work on spatial genomics integration, cross-species data integration using graph neural networks, and protein language models. I'm passionate about building scalable ML pipelines and multi-omics integration frameworks that enable biological discovery.
 
 My technical expertise spans Python, R, PyTorch, TensorFlow, and bioinformatics tools like ScanPy and ArchR. I have experience developing deep learning models for genomic data, including graph neural network-based variational autoencoders for cross-species alignment and hypergraph-based architectures for multimodal data integration.
 
