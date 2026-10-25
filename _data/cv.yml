@@ -4,14 +4,14 @@
     - name: Full Name
       value: Achsah Marlene Aruva
     - name: Location
-      value: New York City, NY
+      value: Worcester, MA
 
 - title: Education
   type: time_table
   contents:
     - title: Master of Science in Biomedical Engineering
       institution: Columbia University, New York, NY
-      year: 2024 - 2025
+      year: Aug 2024 - Dec 2025
       description:
         - "Track: Bioinformatics & Machine Learning"
         - title: Relevant Courses
@@ -33,25 +33,27 @@
             - Biomechanics
             - Advanced Cancer Biology and Molecular Biology
 
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Bioinformatician III
+      institution: Programmable Genomics Lab (PI Dr. Jacob Schreiber), UMass Chan Medical School
+      year: Jan 2026 - present
+      description:
+        - Designing synthetic regulatory elements for different disease conditions in various cell types
+
 - title: Research Experience
   type: time_table
   contents:
-    - title: Master's Research – Spatial Genomics Integration
-      institution: Azizi Lab (PI Dr. Elham Azizi), Columbia University
-      year: May 2025 - Oct 2025
+    - title: Master's Research Student – Spatial Genomics Integration
+      institution: Computational Cancer Biology Lab (PI Dr. Elham Azizi), Columbia University
+      year: May 2025 - Dec 2025
       description:
         - Part of team building end-to-end ML pipeline integrating multimodal genomic datasets (spatial-ATAC and scRNA-seq, 10K+ cells) using hypergraph-based architecture
         - Automated quality control workflows with ArchR and chromVAR, reducing manual processing time from days to hours
         - Improved data integration accuracy for downstream biological analysis
-    - title: Master's Research – Cross-Species Data Integration
-      institution: Worked with Daniel Meyer (Knowles Lab), Columbia University
-      year: Sep 2024 - May 2025
-      description:
-        - Designed and implemented graph neural network–based variational autoencoder (GNN-VAE) in PyTorch to align cross-species scRNA-seq datasets
-        - Developed benchmarking framework with standardized metrics and established evaluation protocols
-        - Presented work as a second author at Machine Learning in Computational Biology (MLCB) 2025 Conference
-    - title: Master's Research – Computational Modeling of Foregut Elongation
-      institution: Nerurkar Lab (PI Dr. Nandan Nerurkar), Columbia University
+    - title: Master's Research Student – Computational Modeling of Foregut Elongation
+      institution: Morphogenesis & Developmental Biomechanics Lab (PI Dr. Nandan Nerurkar), Columbia University
       year: Sep 2024 - Apr 2025
       description:
         - Developed chemo-mechanical simulation model in Python and FEniCS to predict embryonic development patterns
@@ -64,6 +66,17 @@
         - Developed poroelastic mathematical model in MATLAB to predict mechanotransduction signaling
         - Implemented parameter estimation algorithms to infer biological relationships from time-series data
         - Presented work at The XXX Congress of the International Society of Biomechanics, Stockholm
+
+- title: Research Projects
+  type: time_table
+  contents:
+    - title: Cross-Species Data Integration
+      institution: In collaboration with Daniel Meyer (Knowles Lab), Columbia University
+      year: Sep 2024 - May 2025
+      description:
+        - Designed and implemented graph neural network–based variational autoencoder (GNN-VAE) in PyTorch to align cross-species scRNA-seq datasets
+        - Developed benchmarking framework with standardized metrics and established evaluation protocols
+        - Poster presentation (second author) at Machine Learning in Computational Biology (MLCB) 2025
 
 - title: Teaching Experience
   type: time_table
